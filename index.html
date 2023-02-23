@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Names in my (close) Friends</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Names in my (close) Family </h1>
+        <h3 id="sortedNames"></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores distinctio aperiam repudiandae ipsum sapiente consectetur! Expedita nam tempore sunt, dolore explicabo officiis ab, repudiandae saepe perferendis consequuntur ad amet aut!</p>
+        <p>Possimus, facere. Voluptatem quibusdam quod nemo cupiditate consequatur nobis molestias alias saepe dignissimos eveniet facere temporibus, similique enim at voluptates sit nostrum sed, cum, placeat voluptate asperiores laboriosam. Esse, similique!</p>
+        <p>Ratione itaque, fugiat molestiae, deserunt natus sequi consequatur perspiciatis magnam laborum, cupiditate autem dignissimos quae dolore perferendis suscipit? Ut eaque, tempora nesciunt accusamus expedita fugiat quasi ab doloremque sapiente facere.</p>
+        <p>Excepturi fugiat ad molestiae amet consectetur quod, accusantium nemo ipsum similique fugit sed nihil non obcaecati quidem officiis iure blanditiis asperiores vitae earum laborum nulla? Odit, ducimus? Consequatur, nam culpa!</p>
+        <p>Nobis molestiae, maxime maiores, debitis consectetur sunt iste ratione magni nesciunt, laudantium quia cum quos! Vitae, optio facilis. Aut debitis dolor vero? Ea vitae similique, qui ab aspernatur mollitia quia.</p>
+        <p>Est cumque quas quis molestiae ullam molestias odio assumenda quaerat error tenetur, in inventore quos commodi fugiat aliquam hic ipsam necessitatibus fugit? Dicta unde rem voluptas, saepe soluta voluptatibus animi.</p>
+        <p>Aspernatur distinctio temporibus voluptatum, totam neque in quam dolores impedit ducimus expedita harum similique consequatur dolorum, nostrum laborum cupiditate, aliquam fugiat animi. At mollitia libero suscipit ipsum, maxime maiores accusamus?</p>
+        <p>Odio cupiditate velit exercitationem expedita earum commodi ipsam iusto perferendis, deserunt error sequi dignissimos esse. Alias, ex iusto esse a, blanditiis ab ullam accusamus nobis vel tempore hic earum omnis.</p>
+        <p>Aspernatur, id! Amet ut soluta sint sit veniam deleniti vel. Atque aut voluptatibus alias cumque quasi molestiae commodi praesentium itaque mollitia impedit veritatis est, voluptatum quod a consectetur! Consequuntur, voluptatem!</p>
+        <p>Enim quam harum illo consequatur hic voluptatibus possimus eveniet laborum commodi laboriosam eum cum quae, natus pariatur ipsam rem cumque quaerat? Voluptatum asperiores molestiae expedita beatae aut! Ratione, libero ullam.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+    var names = ["Vamsi","Ivan","Ian","Prash","Sid","Nish","Kish","Kurp"];
+
+    let sortedNames = names.sort();
+    document.getElementById("sortedNames").innerHTML = sortedNames;
+    
+    for(i = 0; i < names.length; i++){
+      console.log(names[i]);
+    }
+
+    const number = 3;
+    for (let i = 1; i <= 10; i++) {
+      const result = i * number + 2;
+      console.log(`${i} x ${number} = ${result}`);
+    }
+
+    const paragraphs = document.getElementsByTagName('p');
+    console.log(paragraphs);
+    for (let i = 0; i < paragraphs.length; i++) {
+      paragraphs[i].style.color = 'red';
+    }
+
+    
+
+  </script>
+</body>
+</html>
